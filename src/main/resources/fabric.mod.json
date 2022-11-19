@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "silentroots",
+  "version": "${version}",
+  "name": "SilentRoots",
+  "description": "A magic mod for the latest version of minecraft with a numer of rituals and tools to improve your minecraft experiance.",
+  "authors": [
+    "smorb42"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/silentroots/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "smorb42.silentroots.client.SilentRootsClient"
+    ],
+    "main": [
+      "smorb42.silentroots.SilentRoots"
+    ]
+  },
+  "mixins": [
+    "silentroots.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
